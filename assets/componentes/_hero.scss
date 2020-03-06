@@ -1,0 +1,33 @@
+.hero{
+  border: 1px solid blue;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.hero__img{
+  height: 80%;
+  border: 1px solid blue;
+  padding: 10%;
+}
+.hero__info{
+  border: 1px solid blue;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.hero__info button{
+  background-color: $color-secundario;
+  border: none;
+  text-align: center;
+  color: $color-claro;
+  font-size: 2em;
+  cursor: pointer;
+  outline: none;
+  &:hover{
+    color: #367bdc;
+  }
+  & img{
+    width: 10%;
+    
+  }
+}

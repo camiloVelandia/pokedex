@@ -1,0 +1,22 @@
+$Fuente1: 'Lato', system-ui;
+$Fuente2: 'Roboto', sans-serif;
+$color-primario: #18a8f8;
+$color-secundario: rgb(220, 34, 56);
+$color-variacion: #222222;
+$color-claro: #FFF;
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  color: $color-primario;
+  font-family: $Fuente1;
+}
+h1, h2, h3, h4{
+  font-family: $Fuente2;
+}
+p{
+  color: $color-claro;
+}
