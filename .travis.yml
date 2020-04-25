@@ -1,0 +1,19 @@
+language: node_js
+cache:
+  directories:
+  - node_modules
+  -~/.npm
+node_js:
+- '12'
+git:
+  depth: 3
+deploy:
+  provider: pages
+  kip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  local-dir: ./
+  target-branch: gh-pages
+  commit_message: "deploy del proyecto"
+    on:
+    branch: master
