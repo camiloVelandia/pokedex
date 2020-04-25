@@ -9,11 +9,11 @@ git:
   depth: 3
 deploy:
   provider: pages
-  kip-cleanup: true
-  keep-history: true
-  github-token: $GITHUB_TOKEN
-  local-dir: ./
-  target-branch: gh-pages
+  kip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  local_dir: ./
+  target_branch: gh-pages
   commit_message: "deploy del proyecto"
     on:
     branch: master
